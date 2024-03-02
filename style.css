@@ -132,3 +132,415 @@ body {
         text-align: left;
     }
 }
+
+
+
+.margin-top-50 {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.heading-sec {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+
+.head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 15px;
+}
+
+/* .mar:hover{
+    transform: scale(1.5);
+} */
+
+
+.event {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.upcoming-event-list {
+    padding: 0px;
+    list-style: none;
+}
+
+.upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.event-date {
+    background: #03a9f4;
+    width: 50px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.notice-board {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.notice-board-list {
+    padding: 0px;
+    list-style: none;
+    line-height: 23px;
+}
+
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+/* admission */
+.ad-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media screen and (max-width: 700px) {
+    form {
+        width: 90%;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #232F3E;
+    padding: 50px 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    font-size: 14px;
+}
+
+
+.footer ul h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.footer .left {
+    flex: 1;
+}
+
+.footer .left a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.footer .right {
+    flex: 1;
+}
+
+.footer .right a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.fa-envelope {
+    color: white;
+}
+
+.fa-whatsapp {
+    color: rgb(9, 151, 56);
+}
+
+.fa-solid {
+    color: rgb(216, 33, 33);
+}
+
+.fa-facebook-f {
+    color: white;
+    background-color: #316FF6;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.fa-linkedin-in {
+    background-color: #0077b5;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 5px;
+}
+
+.fa-twitter {
+    background-color: #0077b5;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 5px;
+}
+
+
+.fa-square-instagram {
+    background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    border-radius: 8px;
+    padding: 4px 5px;
+}
+
+
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header .header-1 {
+        padding: 2rem;
+
+    }
+}
+
+@media (max-width:768px) {
+    .header .header-2 {
+        display: none;
+    }
+
+
+    #search-btn {
+        display: inline-block;
+    }
+
+
+    .header .header-1 {
+        box-shadow: var(--box-shadow);
+        position: relative;
+    }
+
+    .header .header-1 .search-form {
+        position: absolute;
+        top: -115%;
+        right: 2rem;
+        width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+
+    .header .header-1 .search-form.active {
+        top: 115%;
+    }
+
+}
+
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 30px 10px;
+    }
+
+    .left,
+    .center,
+    .right {
+        flex: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 50px 5px;
+    }
+
+    .left,
+    .center,
+    .right {
+        flex: 20%;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .pics {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .width-33 {
+        width: 100%;
+        float: none;
+    }
+
+    .latest-news,
+    .event,
+    .notice-board {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .width-33 {
+        width: 100%;
+        float: none;
+    }
+
+    .latest-news,
+    .event,
+    .notice-board {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .head-title {
+        font-size: 14px;
+    }
+
+    .event-date {
+        width: 40px;
+        font-size: 12px;
+    }
+}
+
+/* Animation styling */
+.animate__animated.animate__wobble {
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 1000ms;
+    --animate-delay: 0.9s;
+}
+
+.animate__animated.animate__lightSpeedInRight {
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 200ms;
+    --animate-delay: 0.9s;
+}
+
+.animate__animated.animate__bounceInUp {
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 200ms;
+    --animate-delay: 0.9s;
+}
