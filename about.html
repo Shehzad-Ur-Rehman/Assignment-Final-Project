@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - School Web App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
         }
 
         header {
@@ -28,40 +31,62 @@
             max-width: 800px;
             margin: 0 auto;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>About Us</h1>
-    </header>
 
-    <div class="container">
-        <section>
-            <h2>Welcome to KTK Secondary School</h2>
-            <p>
-                KTK Secondary School is dedicated to providing quality education and fostering a supportive learning environment for students. Our school web app is designed to enhance communication and collaboration between students, teachers, and parents.
-            </p>
-        </section>
+        .animate__animated .animate__zoomInDown {
+  --animate-duration: 2s;
+}
 
-        <section>
-            <h2>Our Mission</h2>
-            <p>
-                Our mission is to empower students with knowledge and skills that will prepare them for success in an ever-changing world. We strive to create a positive and inclusive learning community where each student can reach their full potential.
-            </p>
-        </section>
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 1500ms;
+  --animate-delay: 0.9s;
+}    
+
 
         
+    </style>
+</head>
 
-        <section>
-            <h2>Contact Us</h2>
-            <p>
-                If you have any questions or need further information, feel free to contact us at:
-                <br>
-                Email: shahzadrehman560@gmail.com
-                <br>
-                Phone: +923113433248
-            </p>
-        </section>
+<body>
+
+    <div>
+        <header style="background-color:#00AED9;">
+            <h1 class="animate__animated animate__rotateIn"" style="color: white;">About Us</h1>
+        </header>
+
+        <div class="container">
+            <section>
+                <h2 class="animate__animated animate__rotateIn">Welcome to KTK Secondary School</h2>
+                <p class="animate__animated animate__zoomInDown">
+                    KTK Secondary School is dedicated to providing quality education and fostering a supportive learning
+                    environment for students. Our school web app is designed to enhance communication and collaboration
+                    between students, teachers, and parents.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="animate__animated animate__rotateIn">Our Mission</h2>
+                <p class="animate__animated animate__zoomInDown">
+                    Our mission is to empower students with knowledge and skills that will prepare them for success in
+                    an ever-changing world. We strive to create a positive and inclusive learning community where each
+                    student can reach their full potential.
+                </p>
+            </section>
+
+
+
+            <section>
+                <h2 class="animate__animated animate__rotateIn">Contact Us</h2>
+                <p class="animate__animated animate__zoomInDown">
+                    If you have any questions or need further information, feel free to contact us at:
+                    <br>
+                    Email: shahzadrehman560@gmail.com
+                    <br>
+                    Phone: +923113433248
+                </p>
+            </section>
+        </div>
     </div>
 </body>
+
 </html>
